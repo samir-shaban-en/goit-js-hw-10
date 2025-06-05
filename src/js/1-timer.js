@@ -34,7 +34,7 @@ const options = {
         message: 'Please choose a date in the future',
         color: 'red',
         position: 'topRight',
-        iconUrl: '../img/Group.svg',
+        iconUrl: 'img/Group.svg',
       });
       isOpened = true;
       return;
