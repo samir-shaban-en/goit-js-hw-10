@@ -30,11 +30,10 @@ const options = {
     if (validateDate < 0) {
       ref.button.disabled = true;
 
-      iziToast.show({
+      iziToast.error({
         message: 'Please choose a date in the future',
         color: 'red',
         position: 'topRight',
-        iconUrl: '/src/img/Group.svg',
       });
       isOpened = true;
       return;
